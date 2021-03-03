@@ -1,0 +1,6 @@
+USER: adm@services.com.br
+PASS: servoces123
+
+precisa estar logado para adicionar informações
+
+banco de dados esta na pasta DB
