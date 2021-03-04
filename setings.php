@@ -1,7 +1,6 @@
 <?php
 session_start();
 global $pdo;
-global $id_Champ;
 try{
     $pdo = new PDO("mysql:dbname=snooker;host=localhost","root","");
 }

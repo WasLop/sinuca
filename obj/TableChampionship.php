@@ -7,7 +7,7 @@ class TableChampionship{
     public $max_point;
     #public $id_winner;
     public $init_date;
-    public $end_date;
+    public $status;
 
     public function __construct($id_table,
                                     $name_table,
@@ -15,7 +15,7 @@ class TableChampionship{
                                     $ward_table,
                                     $max_point_table,
                                     $init_date_table,
-                                    $end_date_table){
+                                    $status_table){
         $this->id = $id_table;
 
         $this->name = $name_table;
@@ -23,7 +23,7 @@ class TableChampionship{
         $this->max_point = $max_point_table;
         $this->ward = $ward_table;
         $this->init_date = $init_date_table;
-        $this->end_date = $end_date_table;
+        $this->status = $status_table;
 
         #$this->get_ward();
 
@@ -66,11 +66,11 @@ class TableChampionship{
     public function set_init_date($init_date_table){
         $this->init_date = $init_date_table;
     }
-    public function get_end_date(){
-        return $this->end_date;
+    public function status_date(){
+        return $this->status;
     }
-    public function set_end_date($end_date_table){
-        $this->end_date = $end_date_table;
+    public function set_status($status_table){
+        $this->status = $status_table;
     }
 
 
